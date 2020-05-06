@@ -1,0 +1,123 @@
+    .section {
+      width: 100%;
+      margin-top: 5px;
+      margin-bottom: 55px;
+    }
+    
+    .section-pictures {
+      width: 100%;
+      border-top: 1px solid #d5d8d3;
+      border-bottom: 1px solid #d5d8d3;
+      box-shadow: 0 0 2px 5px #f1f1f2;
+      font-size: 0;
+    }
+    
+    .section-pictures-box {
+      width: calc(100%/3);
+      display: inline-block;
+      margin: 0;
+      position: relative;
+    }
+    
+    .section-pictures-box__img {
+      width: 100%;
+    }
+    
+    .section-pictures__bg {
+      width: 100%;
+      height: 63px;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-stretch: ultra-condensed;
+      font-size: 24px;
+      line-height: 63px;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+    }
+    
+    .first {
+      background: url(../source/bg-hero-orange.png) repeat-x;
+      background-size: auto 63px;
+    }
+    
+    .second {
+      background: url(../source/bg-hero-brown.png) repeat-x;
+      background-size: auto 63px;
+    }
+    
+    .third {
+      background: url(../source/bg-hero-green.png) repeat-x;
+      background-size: auto 63px;
+    }
+    
+    .article {
+      width: 100%;
+      margin-top: 47px;
+      padding: 0;
+      font-family: "pt-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+    .article-container {
+      width: 1250px;
+      margin: auto;
+    }
+    
+    .article__headline {
+      width: 550px;
+      margin: auto;
+      text-align: center;
+      color: #7c7a76;
+      font-size: 20px;
+      line-height: 1.4;
+      padding: 0;
+    }
+    
+    .article__h1 {
+      margin: 0;
+    }
+    
+    .article__span_bold {
+      font-weight: bold;
+    }
+    
+    .article__text {
+      width: 100%;
+      margin-top: 50px;
+      padding-bottom: 35px;
+      border-bottom: 1px solid #c4c2c1;
+      color: #7c7a76;
+      font-size: 22px;
+      line-height: 1.4;
+    }
+    
+    .article__p {
+      margin: 0;
+    }
+    
+    .article__span_color {
+      color: #479367;
+      font-weight: bold;
+    }
+    
+    .article-link {
+      text-align: right;
+    }
+    
+    .article-link__link {
+      width: 150px;
+      padding: 15px;
+      background: #479367;
+      border: 1px solid #c4c2c1;
+      border-radius: 5px;
+      position: relative;
+      bottom: 13px;
+      right: 0;
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 18px;
+    }
+    
+    .article-link__link:hover {
+      background: #260a06;
+    }
